@@ -1,0 +1,2 @@
+module SimplePaginator
+end

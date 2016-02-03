@@ -8,10 +8,13 @@ Gem::Specification.new do |s|
   s.name        = "simple_paginator"
   s.version     = SimplePaginator::VERSION
   s.authors     = ["Nick Evans"]
-  s.email       = ["me@nicolasevans.org"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of SimplePaginator."
-  s.description = "TODO: Description of SimplePaginator."
+  s.email       = ["me@nevans.ca"]
+  s.homepage    = "github.com/manygrams/simple_paginator"
+  s.summary     = "Simple paginator for Rails + ActiveRecord."
+  s.description = <<-DESC
+    Simple paginator for Rails + ActiveRecord. It simply shows customizable
+    Previous / Next buttons.
+  DESC
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]

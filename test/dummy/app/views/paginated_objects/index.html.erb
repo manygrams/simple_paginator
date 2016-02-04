@@ -1,0 +1,8 @@
+<div>
+  <% @paginated_objects.each do |paginated_object| %>
+    <%= paginated_object.id %>
+  <% end %>
+</div>
+<div>
+  <%= simple_paginator @paginated_objects %>
+</div>
